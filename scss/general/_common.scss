@@ -11,19 +11,23 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   height: 100%;
   padding: 0;
   margin: 0;
   font-family: $project-font, "Arial", sans-serif;
   font-size: $font-size;
   line-height: $line-height;
-  background-color: #1f1a25;
+  background-color: #000000;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 img {
   max-width: 100%;
   height: auto;
 }
-
